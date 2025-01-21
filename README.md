@@ -13,6 +13,7 @@ Si usa macOS por defecto viene zsh. Los comando funcionan igual. Si quieres camb
 ```
 chsh -s /bin/bash
 ```
+Luego tienes que cerrar y volver a abrir la Terminal para que se actualice.
 
 ### Instalar Git
 Si usas MacOS, Git debería venir instalado. De todos modos, puedes chequear ejecutando en la Terminal lo siguiente
