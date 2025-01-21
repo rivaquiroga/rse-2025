@@ -8,6 +8,12 @@ A continuación se indican los programas y aplicaciones que es necesario instala
 ### Instalar Bash
 Si usas Linux o MacOS, Bash viene por defecto, así que no tienes que hacer nada. Si usas Windows, puedes instalarlo a través de Git Bash (y así te queda instalado Git, que es el siguiente paso): https://gitforwindows.org/. 
 
+Si usa macOS por defecto viene zsh. Los comando funcionan igual. Si quieres cambiarte a Bash, ejecuta esto en tu Terminal:
+
+```
+chsh -s /bin/bash
+```
+
 ### Instalar Git
 Si usas MacOS, Git debería venir instalado. De todos modos, puedes chequear ejecutando en la Terminal lo siguiente
 
