@@ -38,4 +38,21 @@ Puedes descargar la versión mås reciente de Python desde https://www.python.or
 ### Instalar/actualizar VSCode
 Puedes decargarlo desde https://code.visualstudio.com/
 
+## Materiales
 
+### Día 1. Bash
+
+
+Los datos están disponibles en Figshare: <https://doi.org/10.6084/m9.figshare.13040516>. Hay que descargar la carpeta comprimida, descomprimirla y llamarla `data`. Esa carpeta la guardaremos dentro del directorio raíz de nuestro proyecto, que se llamará `zipf`. Es decir, debería quedar la siguiente estructura en tu computador:
+
+```
+zipf/
+  ├── data
+      ├── dracula.txt
+      ├── frankenstein.txt
+      ├── jane_eyre.txt
+      └── ...
+```
+La sugerencia es que dejen esto en el escritorio de su computador para que sea más fácil encontrarla.
+
+Material de apoyo: libro online [Research Software Engineering with Python](https://third-bit.com/py-rse/).
