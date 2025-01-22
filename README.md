@@ -47,8 +47,7 @@ Puedes decargarlo desde https://code.visualstudio.com/
 
 ## Materiales
 
-### Día 1. Bash
-
+### Ejercicio 1. Bash
 
 Los datos están disponibles en Figshare: <https://doi.org/10.6084/m9.figshare.13040516>. Hay que descargar la carpeta comprimida, descomprimirla y llamarla `data`. Esa carpeta la guardaremos dentro del directorio raíz de nuestro proyecto, que se llamará `zipf`. Es decir, debería quedar la siguiente estructura en tu computador:
 
@@ -63,3 +62,42 @@ zipf/
 La sugerencia es que dejen esto en el escritorio de su computador para que sea más fácil encontrarla.
 
 Material de apoyo: libro online [Research Software Engineering with Python](https://third-bit.com/py-rse/).
+
+### Ejercicio 2. Bash
+
+Descarga [este directorio](https://www.dropbox.com/s/nik8cwkme2yw4hl/archivos.zip?dl=0) y descomprímelo en tu escritorio. Para que nos quede todo más ordenado, la sugerencia es que esta sea tu estructura de carpetas:
+
+```
+Escritorio/
+  ├── taller/
+      ├── archivos/
+      ├── zipf/
+      └── ...
+```
+Para este ejercicio crearemos una carpeta que se llame `carpeta-compartida` que debe quedar en el primer nivel dentro de la carpeta `taller`:
+
+```
+Escritorio/
+  ├── taller/
+      ├── archivos/
+      |── carpeta-compartida/
+      ├── zipf/
+
+```
+
+Si estás en la terminal ubicada dentro de la carpeta taller, puedes crearla directo con `mkdir carpeta-compartida`. Si estás más arriba o más abajo, tendrías que editar la ruta.
+
+## Ejercicio 3. Bash + un lenguaje de programación
+
+Crearemos una nueva carpeta que se llamará `tiempo`:
+
+```
+Escritorio/
+  ├── taller/
+      ├── archivos/
+      |── carpeta-compartida/
+      |── tiempo/
+      ├── zipf/
+```
+
+Vamos a ejecutar un script de R dentro de esa carpeta. Este es el [script](https://www.dropbox.com/scl/fi/qh1zyd1pxx1enz43ompyp/arreglar-formato-valores.R?rlkey=sh2v0jtpa5ad7g267r0wxcwww&dl=0).
