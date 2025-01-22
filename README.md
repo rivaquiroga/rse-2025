@@ -101,3 +101,7 @@ Escritorio/
 ```
 
 Descarga este [script de R](https://www.dropbox.com/scl/fi/qh1zyd1pxx1enz43ompyp/arreglar-formato-valores.R?rlkey=sh2v0jtpa5ad7g267r0wxcwww&dl=0) y estos [datos](https://www.dropbox.com/scl/fi/vlqyeavjcfzp88q6of2ms/santiago_temperatura.csv?rlkey=1l8rehg5rlay27mv6rg801mly&dl=0) y guárdalos en la carpeta tiempo.
+
+## Ejercicio 4. Ambient virtual en Python
+
+Guardaremos dos copias de [este archivo](https://www.dropbox.com/scl/fi/92752gegfy73hvd63hz4y/01_extraccion-tablas.py?rlkey=ywk250qw9hizjy1eqks5xtzum&dl=0): una en la carpeta ambiente python y otra en ambiente-test. 
