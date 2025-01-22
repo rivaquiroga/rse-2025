@@ -105,3 +105,11 @@ Descarga este [script de R](https://www.dropbox.com/scl/fi/qh1zyd1pxx1enz43ompyp
 ## Ejercicio 4. Ambient virtual en Python
 
 Guardaremos dos copias de [este archivo](https://www.dropbox.com/scl/fi/92752gegfy73hvd63hz4y/01_extraccion-tablas.py?rlkey=ywk250qw9hizjy1eqks5xtzum&dl=0): una en la carpeta ambiente python y otra en ambiente-test. 
+
+```
+# Windows
+entorno-virtual\Scripts\activate
+
+# Mac/Linux
+source entorno-virtual/bin/activate
+```
