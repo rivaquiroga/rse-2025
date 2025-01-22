@@ -100,4 +100,4 @@ Escritorio/
       ├── zipf/
 ```
 
-Vamos a ejecutar un script de R dentro de esa carpeta. Este es el [script](https://www.dropbox.com/scl/fi/qh1zyd1pxx1enz43ompyp/arreglar-formato-valores.R?rlkey=sh2v0jtpa5ad7g267r0wxcwww&dl=0).
+Descarga este [script de R](https://www.dropbox.com/scl/fi/qh1zyd1pxx1enz43ompyp/arreglar-formato-valores.R?rlkey=sh2v0jtpa5ad7g267r0wxcwww&dl=0) y estos [datos](https://www.dropbox.com/scl/fi/vlqyeavjcfzp88q6of2ms/santiago_temperatura.csv?rlkey=1l8rehg5rlay27mv6rg801mly&dl=0) y guárdalos en la carpeta tiempo.
