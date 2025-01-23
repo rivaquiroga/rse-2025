@@ -119,8 +119,21 @@ pip install pandas
 
 Si compartimos nuestro código con otras personas podemos guardar la información de las librerías que tenemos instaladas con `pip freeze > requirements.txt`. Luego, ellas pueden usar `pip install -r requirements.txt` para que se le instalen en su entorno virtual las mismas versiones de cada librerías. 
 
-## Ejercicio 5. 
+## Ejercicio 5. Código reproducible, sessionInfo(), renv
 
 Primero, en parejas o tríos, exploraremos el código de este proyecto de R disponible en Posit Cloud: https://posit.cloud/content/9592938. 
 Luego, descargaremos el proyecto y veremos qué pasa cuando lo tratamos de ejecutar localmente. 
 Es necesario que tengas instalados los siguientes paquetes para poder ejecutar el código en tu computador: guaguas, dplyr, ggplot2, ggthemes. Puedes instalarlos todos con `install.packages(c("guaguas", "dplyr", "ggplot2", "ggthemes"))`
+¿Por qué los resultados son diferentes?
+
+## Ejercicio 6
+
+En la terminal, nos ubicaremos en la carpeta taller y ejecutaremos la siguiente línea de código:
+
+```
+git clone https://github.com/rivaquiroga/ejemplo-extraccion-github-actions.git
+```
+En Linux y Windows, para pegar texto en la terminal es necesario usar **ctrl + mayúsculas + V**.
+
+Esto creará una copia de un repositorio que está en GitHub de forma local en su computador. El repositorio no tiene documentación. Lo analizaremos para ver qué podríamos describir para que sea más fácil utilizarlo en el futuro. Y de pasada, hablaremos de GitHub Actions.
+
