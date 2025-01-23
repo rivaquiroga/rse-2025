@@ -102,14 +102,25 @@ Escritorio/
 
 Descarga este [script de R](https://www.dropbox.com/scl/fi/qh1zyd1pxx1enz43ompyp/arreglar-formato-valores.R?rlkey=sh2v0jtpa5ad7g267r0wxcwww&dl=0) y estos [datos](https://www.dropbox.com/scl/fi/vlqyeavjcfzp88q6of2ms/santiago_temperatura.csv?rlkey=1l8rehg5rlay27mv6rg801mly&dl=0) y guárdalos en la carpeta tiempo.
 
-## Ejercicio 4. Ambient virtual en Python
+## Ejercicio 4. Ambiente virtual en Python
 
-Guardaremos dos copias de [este archivo](https://www.dropbox.com/scl/fi/92752gegfy73hvd63hz4y/01_extraccion-tablas.py?rlkey=ywk250qw9hizjy1eqks5xtzum&dl=0): una en la carpeta ambiente python y otra en ambiente-test. 
+Guardaremos dos copias de [este archivo](https://www.dropbox.com/scl/fi/92752gegfy73hvd63hz4y/01_extraccion-tablas.py?rlkey=ywk250qw9hizjy1eqks5xtzum&dl=0): una en la carpeta ambiente-python y otra en ambiente-test. 
 
+Primero creamos el ambiente virtual:
+* `python3 -m venv ambiente-virtual` y luego, lo activamos con `ambiente-virtual\Scripts\activate` en Windows y `source ambiente-virtual/bin/activate` en macOS/Linux.
+* También lo podemos crear y activar a través de la paleta de comandos en VS Code con ctrl + mayúscula + P y luego buscando "ambiente". Elegimos venv y luego la versión más reciente de Python.
+
+Luego, instalamos las librerías que necesita el código: 
 ```
-# Windows
-entorno-virtual\Scripts\activate
-
-# Mac/Linux
-source entorno-virtual/bin/activate
+pip install requests
+pip install bs4
+pip install pandas
 ```
+
+Si compartimos nuestro código con otras personas podemos guardar la información de las librerías que tenemos instaladas con `pip freeze > requirements.txt`. Luego, ellas pueden usar `pip install -r requirements.txt` para que se le instalen en su entorno virtual las mismas versiones de cada librerías. 
+
+## Ejercicio 5. 
+
+Primero, en parejas o tríos, exploraremos el código de este proyecto de R disponible en Posit Cloud: https://posit.cloud/content/9592938. 
+Luego, descargaremos el proyecto y veremos qué pasa cuando lo tratamos de ejecutar localmente. 
+Es necesario que tengas instalados los siguientes paquetes para poder ejecutar el código en tu computador: guaguas, dplyr, ggplot2, ggthemes. Puedes instalarlos todos con `install.packages(c("guaguas", "dplyr", "ggplot2", "ggthemes"))`
